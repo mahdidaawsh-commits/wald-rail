@@ -1,0 +1,151 @@
+{
+  "contract": "0xd8bF043B9A4c9623c73174cCE4fA58751912FE6F",
+  "transaction": "0xde8b0837c6406c694ca3ef095ef37bd89112d7412977853ea728ac27eaca6d63",
+  "sender": "0xf68694b5af841f0fa70e42da943949ddc10463b3",
+  "success": true,
+  "reason": null,
+  "method": "step",
+  "index": 0,
+  "state_before": {
+    "attempts": 0,
+    "cursor": 0,
+    "denominator": 1,
+    "last_attempt": null,
+    "manifest": [
+      {
+        "sha256": "4a19f20388df47e7d2343c7f52d97d9e7af163da154d5694bef3215395d1a485",
+        "trial_id": "FLAG-01",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-1.md"
+      },
+      {
+        "sha256": "cdd409914f206fe458e48deae85785ec81af4dc8b74843aed79164e80d6b7335",
+        "trial_id": "FLAG-02",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-2.md"
+      },
+      {
+        "sha256": "3f41ee690354d2578b44496662015df2053fa35811a278a082e3eb432d01d0b8",
+        "trial_id": "FLAG-03",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-3.md"
+      },
+      {
+        "sha256": "d85d48596d7c082f1edfd9e4b3ff49169d6594ce85987d72f04378195fd123ae",
+        "trial_id": "FLAG-04",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-4.md"
+      }
+    ],
+    "numerator": 1,
+    "records": [],
+    "status": "RUNNING",
+    "target": "Rill pump"
+  },
+  "state": {
+    "attempts": 1,
+    "cursor": 1,
+    "denominator": 1,
+    "last_attempt": {
+      "decisions": {
+        "duration": {
+          "paragraph": 1,
+          "value": "NO"
+        },
+        "final": {
+          "paragraph": 1,
+          "value": "YES"
+        },
+        "flow": {
+          "paragraph": 1,
+          "value": "YES"
+        },
+        "identity": {
+          "paragraph": 1,
+          "value": "YES"
+        },
+        "shutdown_free": {
+          "paragraph": 1,
+          "value": "YES"
+        }
+      },
+      "denominator": 1,
+      "index": 0,
+      "numerator": 4,
+      "observation": "FAIL",
+      "report": {
+        "paragraphs": [
+          "# Final inspection FLAG-01",
+          "Final closed-trial record for Rill pump, trial FLAG-01: the pump completed one uninterrupted run lasting 45 minutes, then the operator ended the planned trial. Minimum observed flow throughout that run was 55 litres per minute. There was no unplanned shutdown. The 45-minute run was the only run in this test."
+        ],
+        "sha256": "4a19f20388df47e7d2343c7f52d97d9e7af163da154d5694bef3215395d1a485",
+        "text": "# Final inspection FLAG-01\n\nFinal closed-trial record for Rill pump, trial FLAG-01: the pump completed one uninterrupted run lasting 45 minutes, then the operator ended the planned trial. Minimum observed flow throughout that run was 55 litres per minute. There was no unplanned shutdown. The 45-minute run was the only run in this test.\n",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-1.md"
+      },
+      "status": "RUNNING",
+      "trial_id": "FLAG-01"
+    },
+    "manifest": [
+      {
+        "sha256": "4a19f20388df47e7d2343c7f52d97d9e7af163da154d5694bef3215395d1a485",
+        "trial_id": "FLAG-01",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-1.md"
+      },
+      {
+        "sha256": "cdd409914f206fe458e48deae85785ec81af4dc8b74843aed79164e80d6b7335",
+        "trial_id": "FLAG-02",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-2.md"
+      },
+      {
+        "sha256": "3f41ee690354d2578b44496662015df2053fa35811a278a082e3eb432d01d0b8",
+        "trial_id": "FLAG-03",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-3.md"
+      },
+      {
+        "sha256": "d85d48596d7c082f1edfd9e4b3ff49169d6594ce85987d72f04378195fd123ae",
+        "trial_id": "FLAG-04",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-4.md"
+      }
+    ],
+    "numerator": 4,
+    "records": [
+      {
+        "decisions": {
+          "duration": {
+            "paragraph": 1,
+            "value": "NO"
+          },
+          "final": {
+            "paragraph": 1,
+            "value": "YES"
+          },
+          "flow": {
+            "paragraph": 1,
+            "value": "YES"
+          },
+          "identity": {
+            "paragraph": 1,
+            "value": "YES"
+          },
+          "shutdown_free": {
+            "paragraph": 1,
+            "value": "YES"
+          }
+        },
+        "denominator": 1,
+        "index": 0,
+        "numerator": 4,
+        "observation": "FAIL",
+        "report": {
+          "paragraphs": [
+            "# Final inspection FLAG-01",
+            "Final closed-trial record for Rill pump, trial FLAG-01: the pump completed one uninterrupted run lasting 45 minutes, then the operator ended the planned trial. Minimum observed flow throughout that run was 55 litres per minute. There was no unplanned shutdown. The 45-minute run was the only run in this test."
+          ],
+          "sha256": "4a19f20388df47e7d2343c7f52d97d9e7af163da154d5694bef3215395d1a485",
+          "text": "# Final inspection FLAG-01\n\nFinal closed-trial record for Rill pump, trial FLAG-01: the pump completed one uninterrupted run lasting 45 minutes, then the operator ended the planned trial. Minimum observed flow throughout that run was 55 litres per minute. There was no unplanned shutdown. The 45-minute run was the only run in this test.\n",
+          "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-1.md"
+        },
+        "status": "RUNNING",
+        "trial_id": "FLAG-01"
+      }
+    ],
+    "status": "RUNNING",
+    "target": "Rill pump"
+  }
+}

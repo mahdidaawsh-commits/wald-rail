@@ -1,0 +1,61 @@
+{
+  "attempts": 2,
+  "cursor": 0,
+  "denominator": 1,
+  "last_attempt": {
+    "decisions": {
+      "duration": {
+        "paragraph": -1,
+        "value": "UNKNOWN"
+      },
+      "final": {
+        "paragraph": 1,
+        "value": "NO"
+      },
+      "flow": {
+        "paragraph": -1,
+        "value": "UNKNOWN"
+      },
+      "identity": {
+        "paragraph": 1,
+        "value": "YES"
+      },
+      "shutdown_free": {
+        "paragraph": -1,
+        "value": "UNKNOWN"
+      }
+    },
+    "denominator": 1,
+    "index": 0,
+    "numerator": 1,
+    "observation": "VOID",
+    "report": {
+      "paragraphs": [
+        "# Unfinished inspection BLOCKED-01",
+        "The target for trial BLOCKED-01 is Rill pump. This trial is still planned and has not started. Engineers forecast a continuous 70-minute run with minimum flow of 55 litres per minute, but these are predictions and not observed results.",
+        "Another pump, Vale, completed its own unrelated 75-minute trial with no shutdown. Vale's measurements are not measurements for Rill pump or trial BLOCKED-01."
+      ],
+      "sha256": "19742e2e140c8c23351367e012ba320496ee2be6bb99310cee2522d850cb919d",
+      "text": "# Unfinished inspection BLOCKED-01\n\nThe target for trial BLOCKED-01 is Rill pump. This trial is still planned and has not started. Engineers forecast a continuous 70-minute run with minimum flow of 55 litres per minute, but these are predictions and not observed results.\n\nAnother pump, Vale, completed its own unrelated 75-minute trial with no shutdown. Vale's measurements are not measurements for Rill pump or trial BLOCKED-01.\n",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/blocked-1.md"
+    },
+    "status": "BLOCKED",
+    "trial_id": "BLOCKED-01"
+  },
+  "manifest": [
+    {
+      "sha256": "19742e2e140c8c23351367e012ba320496ee2be6bb99310cee2522d850cb919d",
+      "trial_id": "BLOCKED-01",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/blocked-1.md"
+    },
+    {
+      "sha256": "585aa1133b4e8cbf72e43cfd6c8d169cfc5d6efab826d063da08e1739dcd6e35",
+      "trial_id": "BLOCKED-02",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/blocked-2.md"
+    }
+  ],
+  "numerator": 1,
+  "records": [],
+  "status": "BLOCKED",
+  "target": "Rill pump"
+}

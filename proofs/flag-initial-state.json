@@ -1,0 +1,32 @@
+{
+  "attempts": 0,
+  "cursor": 0,
+  "denominator": 1,
+  "last_attempt": null,
+  "manifest": [
+    {
+      "sha256": "4a19f20388df47e7d2343c7f52d97d9e7af163da154d5694bef3215395d1a485",
+      "trial_id": "FLAG-01",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-1.md"
+    },
+    {
+      "sha256": "cdd409914f206fe458e48deae85785ec81af4dc8b74843aed79164e80d6b7335",
+      "trial_id": "FLAG-02",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-2.md"
+    },
+    {
+      "sha256": "3f41ee690354d2578b44496662015df2053fa35811a278a082e3eb432d01d0b8",
+      "trial_id": "FLAG-03",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-3.md"
+    },
+    {
+      "sha256": "d85d48596d7c082f1edfd9e4b3ff49169d6594ce85987d72f04378195fd123ae",
+      "trial_id": "FLAG-04",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/flag-4.md"
+    }
+  ],
+  "numerator": 1,
+  "records": [],
+  "status": "RUNNING",
+  "target": "Rill pump"
+}

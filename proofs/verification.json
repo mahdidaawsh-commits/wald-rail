@@ -1,0 +1,265 @@
+{
+  "mode": "fresh-rpc-and-state",
+  "source_sha256": "0cc65fc6193500c12de9c1bfe2d0b348872754fa0ea3f11343be6a51b2f78323",
+  "contracts": [
+    {
+      "name": "clear",
+      "contract": "0x0aeB1cA1E9b7E3e69105720108c130d68B513317",
+      "status": "CLEAR",
+      "cursor": 8,
+      "attempts": 8,
+      "numerator": 256,
+      "denominator": 6561
+    },
+    {
+      "name": "flag",
+      "contract": "0xd8bF043B9A4c9623c73174cCE4fA58751912FE6F",
+      "status": "FLAG",
+      "cursor": 3,
+      "attempts": 3,
+      "numerator": 64,
+      "denominator": 1
+    },
+    {
+      "name": "exhausted",
+      "contract": "0x683E0D0B4C935A67BA2D11f5be9996b80E8D99fE",
+      "status": "EXHAUSTED",
+      "cursor": 2,
+      "attempts": 2,
+      "numerator": 8,
+      "denominator": 3
+    },
+    {
+      "name": "blocked",
+      "contract": "0x570EC6e59Db50CdB881103ad01A3E459D0d7a6AC",
+      "status": "BLOCKED",
+      "cursor": 0,
+      "attempts": 2,
+      "numerator": 1,
+      "denominator": 1
+    }
+  ],
+  "transactions": [
+    {
+      "label": "clear-deployment",
+      "hash": "0xba9d1265465d884761fc6925e57cd14230d27ec928610f5fca2d6fb685702225",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0
+    },
+    {
+      "label": "clear-skipped",
+      "hash": "0xe24401a35b9aaf5008a43ddd142347429c2328ac61f909bf599fdfad2967ffa9",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "clear-step-0",
+      "hash": "0x2dab5d32a66bfe89c97ad16c58e00b85b33670967de819a920f37cb7f90c8adf",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 2,
+      "idle": 0
+    },
+    {
+      "label": "clear-step-1",
+      "hash": "0x5e85eb4a3522589dc54d4d2c4193f6362ec3e8bd33a48fc430a69edfd40bdb97",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "clear-step-2",
+      "hash": "0x6cce53a10f22122ae5f845177161f04bc4fa42df7becffe4d7f00ac973a898d0",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1
+    },
+    {
+      "label": "clear-step-3",
+      "hash": "0xb73833975c4078e25e5deb3ef06ea891d12c448868d0eafd50728b1d2f0bdb8e",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "clear-step-4",
+      "hash": "0xc6fd2187ba8818f669541f4c9f195f74adc538cdb18351d0133d8d32af8c7756",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "clear-step-5",
+      "hash": "0x28c337cceb403c8797a0fafd2abe3cfbcc7c9dac590e4db40d28c7cfd917d499",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "clear-step-6",
+      "hash": "0x68c5002e2ba450eecc4f2d94ad27b67bccf23b84d7b19fffd308e2865544db76",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 2,
+      "idle": 0
+    },
+    {
+      "label": "clear-step-7",
+      "hash": "0x84c9a9a15f0e04b6728ee23920bfaa026c287fe8e5bb76b659e84a992b4d7af1",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "clear-terminal",
+      "hash": "0x8d6ffeed98be0a6d6084468834f7288dbb09cb31fd2c9beef88cea8f820f13bc",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "flag-deployment",
+      "hash": "0x6b0b0c893aeb04c5465e0d896e2c988f9e2b875ce234f40708f66d37c9af21da",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "flag-step-0",
+      "hash": "0xde8b0837c6406c694ca3ef095ef37bd89112d7412977853ea728ac27eaca6d63",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "flag-step-1",
+      "hash": "0xeed7845a03bc61c78c3645f065b01e7aecac10508e7e441bb1b5e54c591dcc39",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1
+    },
+    {
+      "label": "flag-step-2",
+      "hash": "0x42c90c763ad37236faee79b00908389a9e8716488ddbbacfb4865f74a25e50e4",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1
+    },
+    {
+      "label": "exhausted-deployment",
+      "hash": "0xad603a5a69ad71fe36acd151cc6f8893c1cdd830ddce4c2f3aad7d89c9deee85",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "exhausted-step-0",
+      "hash": "0xc54e3ab2db7ad0073fb491c0df4f82c8181a749e200b6619d21778ae73145ec4",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "exhausted-step-1",
+      "hash": "0xd71a73883c483fe2eacf2ab08606e203282819c92e46078500317471d9bbc9d4",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1
+    },
+    {
+      "label": "blocked-deployment",
+      "hash": "0x396c613821669e00ff5ea44e0afecca255ffbc0bf8be480446fe5dbae032fefc",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "blocked-step-0",
+      "hash": "0x801f322a23f08590cb0fcff9e8a0b20b03a9d5fe02e11a382fe009384c333c16",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "blocked-retry",
+      "hash": "0x6778b479e39b6924a8c2451b2a176e48f20fe65d4c596241a2c381c033f69e27",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1
+    },
+    {
+      "label": "blocked-skipped",
+      "hash": "0xc60c7159638ce334c138b58e8245036d497064620214a268d3616b5ed2616c96",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    }
+  ],
+  "live_state_match": true
+}

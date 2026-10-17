@@ -1,0 +1,131 @@
+{
+  "contract": "0x683E0D0B4C935A67BA2D11f5be9996b80E8D99fE",
+  "transaction": "0xc54e3ab2db7ad0073fb491c0df4f82c8181a749e200b6619d21778ae73145ec4",
+  "sender": "0xf68694b5af841f0fa70e42da943949ddc10463b3",
+  "success": true,
+  "reason": null,
+  "method": "step",
+  "index": 0,
+  "state_before": {
+    "attempts": 0,
+    "cursor": 0,
+    "denominator": 1,
+    "last_attempt": null,
+    "manifest": [
+      {
+        "sha256": "aa444a10221390b01678bade7c2e13c3ff8dd9f482b0c3f06272e4e1d64aa4d1",
+        "trial_id": "EXHAUSTED-01",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/exhausted-1.md"
+      },
+      {
+        "sha256": "b1932a8dfa487c68817acce3e66061e393e1467c35725f323fdd3b6fa64197de",
+        "trial_id": "EXHAUSTED-02",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/exhausted-2.md"
+      }
+    ],
+    "numerator": 1,
+    "records": [],
+    "status": "RUNNING",
+    "target": "Rill pump"
+  },
+  "state": {
+    "attempts": 1,
+    "cursor": 1,
+    "denominator": 3,
+    "last_attempt": {
+      "decisions": {
+        "duration": {
+          "paragraph": 1,
+          "value": "YES"
+        },
+        "final": {
+          "paragraph": 1,
+          "value": "YES"
+        },
+        "flow": {
+          "paragraph": 1,
+          "value": "YES"
+        },
+        "identity": {
+          "paragraph": 1,
+          "value": "YES"
+        },
+        "shutdown_free": {
+          "paragraph": 1,
+          "value": "YES"
+        }
+      },
+      "denominator": 3,
+      "index": 0,
+      "numerator": 2,
+      "observation": "PASS",
+      "report": {
+        "paragraphs": [
+          "# Final inspection EXHAUSTED-01",
+          "Final closed-trial record for Rill pump, trial EXHAUSTED-01: the pump completed one uninterrupted run of 65 minutes. The minimum observed flow throughout the run was 52 litres per minute. No unplanned shutdown occurred. These are completed measurements, not planned performance."
+        ],
+        "sha256": "aa444a10221390b01678bade7c2e13c3ff8dd9f482b0c3f06272e4e1d64aa4d1",
+        "text": "# Final inspection EXHAUSTED-01\n\nFinal closed-trial record for Rill pump, trial EXHAUSTED-01: the pump completed one uninterrupted run of 65 minutes. The minimum observed flow throughout the run was 52 litres per minute. No unplanned shutdown occurred. These are completed measurements, not planned performance.\n",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/exhausted-1.md"
+      },
+      "status": "RUNNING",
+      "trial_id": "EXHAUSTED-01"
+    },
+    "manifest": [
+      {
+        "sha256": "aa444a10221390b01678bade7c2e13c3ff8dd9f482b0c3f06272e4e1d64aa4d1",
+        "trial_id": "EXHAUSTED-01",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/exhausted-1.md"
+      },
+      {
+        "sha256": "b1932a8dfa487c68817acce3e66061e393e1467c35725f323fdd3b6fa64197de",
+        "trial_id": "EXHAUSTED-02",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/exhausted-2.md"
+      }
+    ],
+    "numerator": 2,
+    "records": [
+      {
+        "decisions": {
+          "duration": {
+            "paragraph": 1,
+            "value": "YES"
+          },
+          "final": {
+            "paragraph": 1,
+            "value": "YES"
+          },
+          "flow": {
+            "paragraph": 1,
+            "value": "YES"
+          },
+          "identity": {
+            "paragraph": 1,
+            "value": "YES"
+          },
+          "shutdown_free": {
+            "paragraph": 1,
+            "value": "YES"
+          }
+        },
+        "denominator": 3,
+        "index": 0,
+        "numerator": 2,
+        "observation": "PASS",
+        "report": {
+          "paragraphs": [
+            "# Final inspection EXHAUSTED-01",
+            "Final closed-trial record for Rill pump, trial EXHAUSTED-01: the pump completed one uninterrupted run of 65 minutes. The minimum observed flow throughout the run was 52 litres per minute. No unplanned shutdown occurred. These are completed measurements, not planned performance."
+          ],
+          "sha256": "aa444a10221390b01678bade7c2e13c3ff8dd9f482b0c3f06272e4e1d64aa4d1",
+          "text": "# Final inspection EXHAUSTED-01\n\nFinal closed-trial record for Rill pump, trial EXHAUSTED-01: the pump completed one uninterrupted run of 65 minutes. The minimum observed flow throughout the run was 52 litres per minute. No unplanned shutdown occurred. These are completed measurements, not planned performance.\n",
+          "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/exhausted-1.md"
+        },
+        "status": "RUNNING",
+        "trial_id": "EXHAUSTED-01"
+      }
+    ],
+    "status": "RUNNING",
+    "target": "Rill pump"
+  }
+}

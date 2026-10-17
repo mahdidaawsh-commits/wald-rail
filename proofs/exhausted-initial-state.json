@@ -1,0 +1,22 @@
+{
+  "attempts": 0,
+  "cursor": 0,
+  "denominator": 1,
+  "last_attempt": null,
+  "manifest": [
+    {
+      "sha256": "aa444a10221390b01678bade7c2e13c3ff8dd9f482b0c3f06272e4e1d64aa4d1",
+      "trial_id": "EXHAUSTED-01",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/exhausted-1.md"
+    },
+    {
+      "sha256": "b1932a8dfa487c68817acce3e66061e393e1467c35725f323fdd3b6fa64197de",
+      "trial_id": "EXHAUSTED-02",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/wald-rail/744f7020e18711bcac4494e5412f284ad95498c0/reports/exhausted-2.md"
+    }
+  ],
+  "numerator": 1,
+  "records": [],
+  "status": "RUNNING",
+  "target": "Rill pump"
+}
