@@ -1,0 +1,337 @@
+{
+  "target": "Rill pump",
+  "cases": {
+    "clear": [
+      {
+        "file": "clear-1.md",
+        "trial_id": "CLEAR-01",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "clear-2.md",
+        "trial_id": "CLEAR-02",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "file": "clear-3.md",
+        "trial_id": "CLEAR-03",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "clear-4.md",
+        "trial_id": "CLEAR-04",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "clear-5.md",
+        "trial_id": "CLEAR-05",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "clear-6.md",
+        "trial_id": "CLEAR-06",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "clear-7.md",
+        "trial_id": "CLEAR-07",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "clear-8.md",
+        "trial_id": "CLEAR-08",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "clear-9.md",
+        "trial_id": "CLEAR-09",
+        "observation": "FAIL",
+        "values": [
+          "YES",
+          "YES",
+          "NO",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "flag": [
+      {
+        "file": "flag-1.md",
+        "trial_id": "FLAG-01",
+        "observation": "FAIL",
+        "values": [
+          "YES",
+          "YES",
+          "NO",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "flag-2.md",
+        "trial_id": "FLAG-02",
+        "observation": "FAIL",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "NO",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "flag-3.md",
+        "trial_id": "FLAG-03",
+        "observation": "FAIL",
+        "values": [
+          "YES",
+          "YES",
+          "NO",
+          "YES",
+          "NO"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "flag-4.md",
+        "trial_id": "FLAG-04",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "exhausted": [
+      {
+        "file": "exhausted-1.md",
+        "trial_id": "EXHAUSTED-01",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "file": "exhausted-2.md",
+        "trial_id": "EXHAUSTED-02",
+        "observation": "FAIL",
+        "values": [
+          "YES",
+          "YES",
+          "NO",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "blocked": [
+      {
+        "file": "blocked-1.md",
+        "trial_id": "BLOCKED-01",
+        "observation": "VOID",
+        "values": [
+          "YES",
+          "NO",
+          "UNKNOWN",
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "anchors": [
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "file": "blocked-2.md",
+        "trial_id": "BLOCKED-02",
+        "observation": "PASS",
+        "values": [
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        "anchors": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  }
+}
+
